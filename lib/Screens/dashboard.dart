@@ -19,15 +19,19 @@ class _DashboardState extends State<Dashboard> {
 
   Widget build(BuildContext context) {
     return Scaffold(
-      bottomNavigationBar: GNav(
-        haptic: true,
-        gap: 5,
-        iconSize: 20,
-        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
-        tabs: [
-          GButton(icon: Icons.home, text: "Home"),
-          GButton(icon: Icons.settings, text: "Settings"),
-        ],
+      bottomNavigationBar: Container(
+        child: SafeArea(
+          child: GNav(
+            haptic: true,
+            gap: 5,
+            iconSize: 20,
+            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 8),
+            tabs: [
+              GButton(icon: Icons.home, text: "Home"),
+              GButton(icon: Icons.settings, text: "Settings"),
+            ],
+          ),
+        ),
       ),
     );
   }
