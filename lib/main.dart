@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:library_attendance/Dashboard/dashboard.dart';
+import 'package:library_attendance/Screens/dashboard.dart';
 import 'package:library_attendance/theme/theme.dart';
 
 void main() {

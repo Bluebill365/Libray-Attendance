@@ -17,14 +17,16 @@ class _DashboardState extends State<Dashboard> {
     });
   }
 
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(title: const Text("Library Attendance")),
       bottomNavigationBar: Container(
         child: SafeArea(
           child: GNav(
             haptic: true,
-            gap: 5,
-            iconSize: 20,
+            gap: 10,
+            iconSize: 25,
             padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 8),
             tabs: [
               GButton(icon: Icons.home, text: "Home"),
@@ -32,6 +34,11 @@ class _DashboardState extends State<Dashboard> {
             ],
           ),
         ),
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: const Icon(Icons.camera, size: 25),
       ),
     );
   }

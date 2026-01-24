@@ -10,6 +10,12 @@ class Settings extends StatefulWidget {
 class _SettingsState extends State<Settings> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(title: Text("Configuration")),
+      body: Row(children: [
+          
+        ],
+      ),
+    );
   }
 }
