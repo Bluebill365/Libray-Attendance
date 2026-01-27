@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:library_attendance/Screens/qrscannerscreen.dart';
-import 'package:library_attendance/features/qr_checkin/bloc/data/qr_repository.dart';
 import 'package:library_attendance/features/qr_checkin/bloc/qr_bloc.dart';
 import 'settings.dart';
 

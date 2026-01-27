@@ -5,7 +5,6 @@ import 'package:qr_code_scanner/qr_code_scanner.dart';
 import '../bloc/qr_bloc.dart';
 import '../bloc/qr_event.dart';
 import '../bloc/qr_state.dart';
-import 'package:library_attendance/bloc/qr_bloc.dart' as main_qr;
 
 class QRScannerScreen extends StatefulWidget {
   const QRScannerScreen({super.key});
