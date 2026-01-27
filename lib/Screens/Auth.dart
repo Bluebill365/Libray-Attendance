@@ -68,7 +68,7 @@ class _AuthScreenState extends State<AuthScreen> {
                         borderSide: BorderSide(color: Colors.grey),
                       ),
                     ),
-                    value: selectedCourse,
+                    initialValue: selectedCourse,
                     items: courses.map((String value) {
                       return DropdownMenuItem<String>(
                         value: value,
