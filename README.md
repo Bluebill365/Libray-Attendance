@@ -17,3 +17,13 @@ Functional Features:
 * Daily attendance summary
 
 
+Database for student:
+Index number,
+Phone number,
+Gender,
+Course,
+Registered name
+
+Database for frontDesk personel:
+Library email,
+password
